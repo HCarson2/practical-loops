@@ -1,3 +1,4 @@
+//Part 1
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("fizzbuzz");
@@ -8,4 +9,9 @@ for (let i = 1; i <= 100; i++) {
     } else {
         console.log(i);
     }
+}
+//Part 2
+//Function to check if a number is prime
+function isPrime(num) {
+    if (num <= 1) return false;
 }
