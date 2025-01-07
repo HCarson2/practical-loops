@@ -25,3 +25,14 @@ function isPrime(num) {
 }
 //Arbitrary number (n)
 let n = 4;
+//Search for next prime numbers
+let nextPrime = n + 1;
+while (true) {
+    if (isPrime(nextPrime)) {
+        console.log(nextPrime);
+        //Break or exitafter finding the first prime number
+        break;
+    }
+    //Increment the next prime number
+    nextPrime++;
+}
